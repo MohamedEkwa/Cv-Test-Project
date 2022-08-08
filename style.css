@@ -1,0 +1,143 @@
+/* ======== start global ========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+/* ======== end global ========= */
+
+/* ======== profile ========= */
+.profile {
+  width: 40%;
+  float: right;
+  padding-right: 30px;
+}
+.profile > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-bottom: 5px solid gray;
+}
+/* ======== social ========= */
+.social {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social img {
+  height: 30px;
+  margin: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.social img:hover {
+  transform: rotate(360deg);
+}
+.profile-info h2 {
+  margin: 15px;
+}
+/* ============= Start profile-info ============= */
+.profile-info {
+  width: 60%;
+  height: 100vh;
+  float: left;
+  padding: 0 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.profile-info h1 {
+  margin: 50px 0;
+}
+.profile-info::-webkit-scrollbar {
+  width: 0;
+}
+.profile-info .about {
+  margin-left: 15px;
+}
+
+/* ======== services ========= */
+.profile-info .services {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px rgb(37, 73, 214, 0.18);
+}
+.profile-info .services img {
+  width: 60%;
+  margin: 5px;
+}
+body > div.profile-info > div.services > small {
+  display: block;
+  padding-top: 15px;
+}
+/* ======== projects ========= */
+body > div.profile-info > div.projects {
+  width: 100%;
+}
+div.projects > img {
+  width: 31%;
+  padding: 4px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+/* ======== form-box ========= */
+body > div.profile-info > div.form-box {
+  margin-top: 30px;
+}
+.input-group input {
+  width: 45%;
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  background-color: #f3f3f3;
+  margin: 2%;
+  display: inline-block;
+}
+.text-area textarea {
+  width: 95%;
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  background-color: #f3f3f3;
+  margin: 2%;
+}
+.sub {
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  background-color: #866eff;
+  margin: 2%;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+/* ======== Contact ========= */
+.cont {
+  margin-top: 20px;
+}
+.cont div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont img {
+  width: 20px;
+  margin: 2%;
+}
+.copy {
+  text-align: center;
+  margin: 20px;
+  color: #a58997;
+}
+/* ============= End profile-info ============= */
